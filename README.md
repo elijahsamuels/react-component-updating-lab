@@ -14,8 +14,12 @@ second timers. In this lab, we're going to implement some extra features using
 the component lifecycle update methods.
 
 The app is functioning and already has the `componentDidMount` method being used
-in both the `App.js` and `Timer.js`. In App, `componentDidMount` calls a method
-to add one initial timer. In Timer, `componentDidMount` initializes an interval.
+in both the `App.js` and `Timer.js`. 
+
+- In App, `componentDidMount` calls a method
+to add one initial timer. 
+
+- In Timer, `componentDidMount` initializes an interval.
 
 The interval within Timer is set based on the prop `updateInterval`. If you take
 a look at App, you can see that this is a state value that is being set using
